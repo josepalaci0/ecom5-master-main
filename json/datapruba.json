@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "name": "Mochila Roja",
+      "image": "./images/product2.jpg",
+      "price": "$850",
+      "detailsUrl": "productDetails.html",
+      "details": [
+        {
+          "category": "Bags",
+          "brand": "Brand A",
+          "description": "A stylish red backpack for everyday use.",
+          "discount": 10,
+          "rating": 4.5,
+          "reviews": 20,
+          "images": [
+            "./images/product1-1.jpg",
+            "./images/product1-2.jpg",
+            "./images/product1-3.jpg",
+            "./images/product1-4.jpg",
+            "./images/product1-5.jpg",
+            "./images/product1-6.jpg",
+            "./images/product1-7.jpg",
+            "./images/product1-8.jpg",
+            "./images/product1-9.jpg",
+            "./images/product1-10.jpg",
+            "./images/product1-11.jpg",
+            "./images/product1-12.jpg",
+            "./images/product1-13.jpg",
+            "./images/product1-14.jpg",
+            "./images/product1-15.jpg"
+          ],
+          "colors": ["Red", "Black", "Blue"],
+          "sizes": ["Small", "Medium", "Large"],
+          "material": "Canvas",
+          "features": ["Waterproof", "Padded Straps", "Multiple Compartments"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bolso Negro",
+      "image": "./images/product3.jpg",
+      "price": "$500",
+      "detailsUrl": "productDetails.html",
+      "details": [
+        {
+          "category": "Bags",
+          "brand": "Brand B",
+          "description": "A classic black handbag for any occasion.",
+          "discount": 15,
+          "rating": 4.2,
+          "reviews": 15,
+          "images": [
+            "./images/product2-1.jpg",
+            "./images/product2-2.jpg",
+            "./images/product2-3.jpg",
+            "./images/product2-4.jpg",
+            "./images/product2-5.jpg",
+            "./images/product2-6.jpg",
+            "./images/product2-7.jpg",
+            "./images/product2-8.jpg",
+            "./images/product2-9.jpg",
+            "./images/product2-10.jpg",
+            "./images/product2-11.jpg",
+            "./images/product2-12.jpg",
+            "./images/product2-13.jpg",
+            "./images/product2-14.jpg",
+            "./images/product2-15.jpg"
+          ],
+          "colors": ["Black", "Brown", "Beige"],
+          "sizes": ["Small", "Medium"],
+          "material": "Leather",
+          "features": ["Spacious Interior", "Adjustable Strap"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sneakers Blancos",
+      "image": "./images/product4.jpg",
+      "price": "$120",
+      "detailsUrl": "productDetails.html",
+      "details": [
+        {
+          "category": "Shoes",
+          "brand": "Brand C",
+          "description": "Comfortable white sneakers for casual wear.",
+          "discount": 5,
+          "rating": 4.0,
+          "reviews": 10,
+          "images": [
+            "./images/product3-1.jpg",
+            "./images/product3-2.jpg",
+            "./images/product3-3.jpg",
+            "./images/product3-4.jpg",
+            "./images/product3-5.jpg",
+            "./images/product3-6.jpg",
+            "./images/product3-7.jpg",
+            "./images/product3-8.jpg",
+            "./images/product3-9.jpg",
+            "./images/product3-10.jpg",
+            "./images/product3-11.jpg",
+            "./images/product3-12.jpg",
+            "./images/product3-13.jpg",
+            "./images/product3-14.jpg",
+            "./images/product3-15.jpg"
+          ],
+          "colors": ["White", "Gray"],
+          "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10"],
+          "material": "Textile",
+          "features": ["Lightweight", "Breathable"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Reloj Deportivo",
+      "image": "./images/product5.jpg",
+      "price": "$200",
+      "detailsUrl": "productDetails.html",
+      "details": [
+        {
+          "category": "Accessories",
+          "brand": "Brand D",
+          "description": "A stylish and durable sports watch.",
+          "discount": 20,
+          "rating": 4.7,
+          "reviews": 25,
+          "images": [
+            "./images/product4-1.jpg",
+            "./images/product4-2.jpg",
+            "./images/product4-3.jpg",
+            "./images/product4-4.jpg",
+            "./images/product4-5.jpg",
+            "./images/product4-6.jpg",
+            "./images/product4-7.jpg",
+            "./images/product4-8.jpg",
+            "./images/product4-9.jpg",
+            "./images/product4-10.jpg",
+            "./images/product4-11.jpg",
+            "./images/product4-12.jpg",
+            "./images/product4-13.jpg",
+            "./images/product4-14.jpg",
+            "./images/product4-15.jpg"
+          ],
+          "colors": ["Black", "Blue", "Green"],
+          "sizes": ["Small", "Medium", "Large"],
+          "material": "Plastic",
+          "features": ["Water Resistant", "Chronograph Function"]
+        }
+      ]
+    }
+  ]
+  

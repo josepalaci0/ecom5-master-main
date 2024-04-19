@@ -1,0 +1,51 @@
+[
+    {
+      "image_url": "../images/product1.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null
+    },
+    {
+      "image_url": "../images/product2.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160
+    },
+    {
+      "image_url": "../images/product3.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null
+    },
+    {
+      "image_url": "../images/product4.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160
+    },
+    {
+      "image_url": "../images/product5.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null
+    },
+    {
+      "image_url": "../images/product6.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null
+    },
+    {
+      "image_url": "../images/product7.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160
+    },
+    {
+      "image_url": "../images/product8.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160
+    }
+  ]
+  

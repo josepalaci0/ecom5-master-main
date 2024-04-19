@@ -1,0 +1,33 @@
+[
+    {
+      "image_url": "../images/promo1.jpg",
+      "title": "FOR MEN",
+      "link": "#"
+    },
+    {
+      "image_url": "../images/promo2.jpg",
+      "title": "CASUAL SHOES",
+      "link": "#"
+    },
+    {
+      "image_url": "../images/promo3.jpg",
+      "title": "FOR WOMEN",
+      "link": "#"
+    },
+    {
+      "image_url": "../images/promo4.jpg",
+      "title": "LEATHER BELTS",
+      "link": "#"
+    },
+    {
+      "image_url": "../images/promo5.jpg",
+      "title": "DESIGNER BAGS",
+      "link": "#"
+    },
+    {
+      "image_url": "../images/promo6.jpg",
+      "title": "WATCHES",
+      "link": "#"
+    }
+  ]
+  

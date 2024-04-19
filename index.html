@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>dev</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav" style="background-color: aqua;">
+    <div class="wrapper container">
+      <div class="logo"><a href="">DEVCAMPO</a></div> 
+      
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+        <div class="login" id="login">
+          <a href="#" class="login-link">Login</a>
+          <a href="#" class="register-link">Register</a>
+        </div>
+        
+        <li> <form class="search-form">
+          <input class="input-field" style="display: none;" type="text" placeholder="Search">
+          <button class="search-button" type="submit">
+            <img class="search-icon" src="./images/search.svg" alt="Search">
+          </button>
+        </form></li>
+
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="products.html">Productos</a></li>
+        <li>
+          <a href="" class="desktop-item">Variedades <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Variedades <span><i class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="./images/woman.jpg" alt="" />
+              </div>
+              <div class="row">
+                <header>Premium</header>
+                <ul class="mega-links">
+                  <li><a href="#">Shop With Background</a></li>
+                  <li><a href="#">Shop Mini Categories</a></li>
+                  <li><a href="#">Shop Only Categories</a></li>
+                  <li><a href="#">Shop Icon Categories</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Comercial</header>
+                <ul class="mega-links">
+                  <li><a href="#">Sidebar</a></li>
+                  <li><a href="#">Filter Default</a></li>
+                  <li><a href="#">Filter Drawer</a></li>
+                  <li><a href="#">Filter Dropdown</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Prmociones</header>
+                <ul class="mega-links">
+                  <li><a href="#">Layout Zoom</a></li>
+                  <li><a href="#">Layout Sticky</a></li>
+                  <li><a href="#">Layout Sticky 2</a></li>
+                  <li><a href="#">Layout Scroll</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="">Blog</a></li>
+        <li>
+          <a href="" class="desktop-item">Afiliados <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop1" />
+          <label for="showdrop1" class="mobile-item">Vendors <span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+            <li><a href="">Consultar Afiliados</a></li>
+            <li><a href="">Agragar Nuevos Afiliados</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu2">
+            <li><a href="">Acerca de Mi</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Redes</a></li>
+            <li><a href="">Page 404</a></li>
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="icons">
+          <span>
+            <img src="./images/shoppingBag.svg" alt="" />
+            <small class="count d-flex">0</small>
+          </span>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <div class="hero" style="background-image: url(./images/wp5264039-coffee-time-ultra-hd-wallpapers.jpg);">
+    <div class="left">
+      <span>Cafepro Premium </span>
+      <h1>UNIDAD AL 50% DESCUENTO</h1>
+      <small>Promocion solo por temporada Terminos y Condiciones.
+      </small>
+      <a href="">Ver Unidades </a>
+    </div>
+    <div class="right">
+      <img src="" alt="" />
+    </div>
+  </div>
+
+  <!-- Promotion -->
+  <section class="section promotion">
+    <div class="title">
+      <h2>Cafe de Coleccion</h2>
+      <span>Selecione productos 100% premium</span>
+    </div>
+
+    <div id="promotions-container" class="promotion-layout container">
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="section products">
+    <div class="title">
+      <h2>New Products</h2>
+      <span>Select from the premium product brands and save plenty money</span>
+    </div>
+    <div class="product-layout"> </div>
+
+  </section>
+
+  <!-- ADVERT -->
+  <section class="section advert">
+    <div class="advert-layout container">
+
+    </div>
+  </section>
+
+
+  <!-- BRANDS -->
+  <section class="section brands">
+    <div class="title">
+      <h2>Shop by Brand</h2>
+      <span>Select from the premium product brands and save plenty money</span>
+    </div>
+
+    <div class="brand-layout container">
+      <div class="glide" id="glide1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, USA
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            company@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            456-456-4512
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Glidejs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <!-- Custom Scripts -->
+  <script src="./js/products.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/colecciones.js"></script>
+  <script src="./js/productosnuevos.js"></script>
+  <script src="./js/cargaranuncios.js"></script>
+  <script src="./js/brand.js"></script>
+  <script src="./js/toggleOnHover.js"></script>
+
+
+
+</body>
+
+</html>
