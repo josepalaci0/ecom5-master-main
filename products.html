@@ -5,40 +5,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./images/favicon1.ico" type="image/x-icon" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  
 
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./styles.css" />
-  <title>Codevo - Ecommerce Website</title>
+  <title>DEVCAMPO</title>
 </head>
 
 <body>
 
   <!-- Navigation -->
   
-    <nav class="nav">
+  <nav class="nav" style="background-color: aqua;">
     <div class="wrapper container">
-      <div class="logo"><a href="">DEVCAMPO</a></div>
+      <div class="logo"><a href="">DEVCAMPO</a></div> 
+      
       <ul class="nav-list">
         <div class="top">
           <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
         </div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
+        <div class="login" id="login">
+          <a href="#" class="login-link">Login</a>
+          <a href="#" class="register-link">Register</a>
+        </div>
+        
+        <li> <form class="search-form">
+          <input class="input-field" style="display: none;" type="text" placeholder="Search">
+          <button class="search-button" type="submit">
+            <img class="search-icon" src="./images/search.svg" alt="Search">
+          </button>
+        </form></li>
+
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="products.html">Productos</a></li>
         <li>
-          <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+          <a href="" class="desktop-item">Variedades <span><i class="fas fa-chevron-down"></i></span></a>
           <input type="checkbox" id="showMega" />
-          <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+          <label for="showMega" class="mobile-item">Variedades <span><i class="fas fa-chevron-down"></i></span></label>
           <div class="mega-box">
             <div class="content">
               <div class="row">
                 <img src="./images/woman.jpg" alt="" />
               </div>
               <div class="row">
-                <header>Shop Layout</header>
+                <header>Premium</header>
                 <ul class="mega-links">
                   <li><a href="#">Shop With Background</a></li>
                   <li><a href="#">Shop Mini Categories</a></li>
@@ -47,7 +59,7 @@
                 </ul>
               </div>
               <div class="row">
-                <header>Filter Layout</header>
+                <header>Comercial</header>
                 <ul class="mega-links">
                   <li><a href="#">Sidebar</a></li>
                   <li><a href="#">Filter Default</a></li>
@@ -56,7 +68,7 @@
                 </ul>
               </div>
               <div class="row">
-                <header>Product Layout</header>
+                <header>Prmociones</header>
                 <ul class="mega-links">
                   <li><a href="#">Layout Zoom</a></li>
                   <li><a href="#">Layout Sticky</a></li>
@@ -69,23 +81,22 @@
         </li>
         <li><a href="">Blog</a></li>
         <li>
-          <a href="" class="desktop-item">Vendors <span><i class="fas fa-chevron-down"></i></span></a>
+          <a href="" class="desktop-item">Afiliados <span><i class="fas fa-chevron-down"></i></span></a>
           <input type="checkbox" id="showdrop1" />
           <label for="showdrop1" class="mobile-item">Vendors <span><i class="fas fa-chevron-down"></i></span></label>
           <ul class="drop-menu1">
-            <li><a href="">Vendor Store listings</a></li>
-            <li><a href="">Store Details</a></li>
+            <li><a href="">Consultar Afiliados</a></li>
+            <li><a href="">Agragar Nuevos Afiliados</a></li>
           </ul>
         </li>
-
         <li>
           <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
           <input type="checkbox" id="showdrop2" />
           <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
           <ul class="drop-menu2">
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Faq</a></li>
+            <li><a href="">Acerca de Mi</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Redes</a></li>
             <li><a href="">Page 404</a></li>
           </ul>
         </li>
@@ -95,7 +106,6 @@
             <img src="./images/shoppingBag.svg" alt="" />
             <small class="count d-flex">0</small>
           </span>
-          <span><img src="./images/search.svg" alt="" /></span>
         </li>
       </ul>
       <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>

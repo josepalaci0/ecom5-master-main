@@ -2,7 +2,7 @@
 async function cargarProductosPorPagina(pagina, productosPorPagina, sortBy, orderBy) {
     try {
         // Cargar el archivo JSON de productos
-        const response = await fetch('../json/dataproductos.json');
+        const response = await fetch('../json/dataproductosnuevos.json');
         const data = await response.json();
 
         // Aplicar filtros de ordenamiento y dirección
@@ -32,59 +32,68 @@ async function cargarProductosPorPagina(pagina, productosPorPagina, sortBy, orde
 
         // Recorrer los productos de la página actual y construir la interfaz
         productosPagina.forEach(producto => {
-            // Crear el contenedor del producto
-            const productContainer = document.createElement('div');
-            productContainer.classList.add('product');
-
-            // Crear la parte de la imagen
+            const productDiv = document.createElement('div');
+            productDiv.classList.add('product');
+  
             const imgContainer = document.createElement('div');
             imgContainer.classList.add('img-container');
+  
             const imagen = document.createElement('img');
-            imagen.src = producto.image;
+            imagen.src = producto.image_url;
             imagen.alt = producto.name;
-            imgContainer.appendChild(imagen);
-
-            // Añadir el botón de agregar al carrito
-            const addCart = document.createElement('div');
-            addCart.classList.add('addCart');
-            const iconoCarrito = document.createElement('i');
-            iconoCarrito.classList.add('fas', 'fa-shopping-cart');
-            addCart.appendChild(iconoCarrito);
-            imgContainer.appendChild(addCart);
-
-            // Añadir los íconos secundarios
+  
+            const addCartDiv = document.createElement('div');
+            addCartDiv.classList.add('addCart');
+            addCartDiv.innerHTML = '<i class="fas fa-shopping-cart"></i>';
+  
             const sideIcons = document.createElement('ul');
             sideIcons.classList.add('side-icons');
-            const iconosClasses = ['fa-search', 'fa-heart', 'fa-sliders-h'];
-            iconosClasses.forEach(iconoClass => {
-                const span = document.createElement('span');
-                const icono = document.createElement('i');
-                icono.classList.add('fas', iconoClass);
-                span.appendChild(icono);
-                sideIcons.appendChild(span);
+            sideIcons.innerHTML = `
+                <span><i class="fas fa-search" data-id="${producto.id}"></i></span>
+                <span><i class="far fa-heart" data-id="${producto.id}"></i></span>
+                <span><i class="fas fa-sliders-h" data-id="${producto.id}"></i></span>
+            `;
+  
+            sideIcons.querySelectorAll('span i').forEach(icon => {
+                icon.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-id');
+                    localStorage.setItem('selectedProductId', productId);
+                    window.location.href = 'productDetails.html';
+                });
             });
+  
+            imgContainer.appendChild(imagen);
+            imgContainer.appendChild(addCartDiv);
             imgContainer.appendChild(sideIcons);
-
-            // Añadir la parte inferior del producto (nombre y precio)
-            const bottom = document.createElement('div');
-            bottom.classList.add('bottom');
-            const enlace = document.createElement('a');
-            enlace.href = producto.detailsUrl;
-            enlace.textContent = producto.name;
-            const precio = document.createElement('div');
-            precio.classList.add('price');
-            const spanPrecio = document.createElement('span');
-            spanPrecio.textContent = producto.price;
-            precio.appendChild(spanPrecio);
-            bottom.appendChild(enlace);
-            bottom.appendChild(precio);
-
-            // Añadir las partes al contenedor del producto
-            productContainer.appendChild(imgContainer);
-            productContainer.appendChild(bottom);
-
-            // Agregar el producto al contenedor de productos
-            productLayout.appendChild(productContainer);
+  
+            const bottomDiv = document.createElement('div');
+            bottomDiv.classList.add('bottom');
+  
+            const productName = document.createElement('a');
+            productName.href = '#'; // Aquí iría el enlace real
+            productName.textContent = producto.name;
+  
+            const priceDiv = document.createElement('div');
+            priceDiv.classList.add('price');
+  
+            const priceSpan = document.createElement('span');
+            priceSpan.textContent = '$' + producto.price;
+  
+            if (producto.previous_price !== null) {
+                const cancelSpan = document.createElement('span');
+                cancelSpan.classList.add('cancel');
+                cancelSpan.textContent = '$' + producto.previous_price;
+                priceDiv.appendChild(cancelSpan);
+            }
+  
+            priceDiv.appendChild(priceSpan);
+            bottomDiv.appendChild(productName);
+            bottomDiv.appendChild(priceDiv);
+  
+            productDiv.appendChild(imgContainer);
+            productDiv.appendChild(bottomDiv);
+  
+            productLayout.appendChild(productDiv);
         });
 
         // Calcular el número total de páginas
