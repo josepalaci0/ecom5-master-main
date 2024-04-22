@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function loadCartItems() {
+
     const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+    console.log(cartItems)
 
     const cartTable = document.querySelector('.container.cart table');
     const subtotalCell = document.getElementById('subtotal');
@@ -18,29 +20,35 @@ function loadCartItems() {
     cartItems.forEach(item => {
         const { id, name, price, quantity } = item;
 
+
         // Calcular subtotal del artículo
         const itemSubtotal = price * quantity;
         subtotal += itemSubtotal;
 
         // Crear fila para el artículo en el carrito
         const row = document.createElement('tr');
+
+        const imageUrl = item.image_url;
+        const extension = imageUrl.substring(imageUrl.lastIndexOf('.') + 1);
+
+
         row.innerHTML = `
-            <td>
-                <div class="cart-info">
-                    <img src="./images/product${id}.jpg" alt="${name}" />
-                    <div>
-                        <p>${name}</p>
-                        <span>Price: $${price.toFixed(2)}</span>
-                        <br />
-                        <a href="#" data-id="${id}" class="remove">Remove</a>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <input type="number" value="${quantity}" min="1" class="quantity-input" data-id="${id}">
-            </td>
-            <td>$${itemSubtotal.toFixed(2)}</td>
-        `;
+    <td>
+        <div class="cart-info">
+            <img src="${imageUrl}" alt="${name}" />
+            <div>
+                <p>${name}</p>
+                <span>Price: $${price.toFixed(2)}</span>
+                <br />
+                <a href="#" data-id="${id}" class="remove">Remove</a>
+            </div>
+        </div>
+    </td>
+    <td>
+        <input type="number" value="${quantity}" min="1" class="quantity-input" data-id="${id}">
+    </td>
+    <td>$${itemSubtotal.toFixed(2)}</td>
+`;
 
         cartTable.appendChild(row);
     });
@@ -71,6 +79,7 @@ function removeFromCart(event) {
     let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
 
     cartItems = cartItems.filter(item => item.id !== itemId);
+    console.log(cartItems)
 
     localStorage.setItem('cart', JSON.stringify(cartItems));
 

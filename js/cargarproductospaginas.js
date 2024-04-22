@@ -153,10 +153,10 @@ document.getElementById('filter-form').addEventListener('submit', function (even
     event.preventDefault();
     const sortBy = document.getElementById('sort-by').value;
     const orderBy = document.getElementById('order-by').value;
-    cargarProductosPorPagina(1, 15, sortBy, orderBy);
+    cargarProductosPorPagina(1, 10, sortBy, orderBy);
 });
 
 // Cargar productos por defecto al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
-    cargarProductosPorPagina(1, 15, 'name', 'asc');
+    cargarProductosPorPagina(1, 10, 'name', 'asc');
 });

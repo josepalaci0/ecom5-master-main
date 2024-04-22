@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 async function loadProductDetails(productId) {
     try {
         // Fetch product details JSON
-        const response = await fetch('../json/dataproductosnuevos.json');
+        const response = await fetch('../json/cafe.json');
         const productData = await response.json();
 
         // Buscar el producto con el ID especificado
@@ -88,6 +88,7 @@ function addToCart(product) {
     } else {
         // Si el producto no está en el carrito, agregarlo
         cart.push(product);
+        console.log(cart);
     }
 
     // Actualizar el carrito en el localStorage
@@ -97,6 +98,6 @@ function addToCart(product) {
     alert('Producto agregado al carrito.');
 
     // Opcional: redireccionar a la página del carrito
-    // window.location.href = 'cart.html';
+     window.location.href = 'cart.html';
 }
 
