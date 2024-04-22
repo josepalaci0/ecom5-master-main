@@ -1,0 +1,191 @@
+[
+    {
+      "id":1,
+      "image_url": "../images/product1.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160,     
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":2,
+      "image_url": "../images/product2.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":3,
+      "image_url": "../images/product3.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":4,
+      "image_url": "../images/product4.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":5,
+      "image_url": "../images/product5.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":6,
+      "image_url": "../images/product6.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": null,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":7,
+      "image_url": "../images/product7.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+      "id":8,
+      "image_url": "../images/product8.jpg",
+      "name": "Bambi Print Mini Backpack",
+      "price": 150,
+      "previous_price": 160,
+      "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+      "category":"ropa"
+    },
+    {
+        "id":9,
+        "image_url": "../images/product15.png",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":10,
+        "image_url": "../images/product16.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },{
+        "id":11,
+        "image_url": "../images/product17.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":12,
+        "image_url": "../images/product18.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":12,
+        "image_url": "../images/product19.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":13,
+        "image_url": "../images/product20.png",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":14,
+        "image_url": "../images/product21.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":15,
+        "image_url": "../images/product22.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":16,
+        "image_url": "../images/product23.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":17,
+        "image_url": "../images/product24.jpg",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":18,
+        "image_url": "../images/product25.jpg",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":19,
+        "image_url": "../images/product26.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      },
+      {
+        "id":20,
+        "image_url": "../images/product27.webp",
+        "name": "Bambi Print Mini Backpack",
+        "price": 150,
+        "previous_price": 160,
+        "details":"lLorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quidem placeat assumenda. Vel iste, asperiores similique culpa accusantium perspiciatis repellendus obcaecati consectetur nesciunt earum minima dicta inventore expedita mollitia voluptates.",
+        "category":"cafe"
+      }
+  ]
+  
